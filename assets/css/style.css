@@ -1,0 +1,30 @@
+.jumbotron{
+    background-image:url("../images/train.jpg");
+    opacity: 0.7;
+}
+.container{
+    background-color: white;
+    opacity: 0.95;
+    color: black;
+    width: 50%;
+}
+h5{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.table{
+    margin-left: 40px;
+}
+.container2{
+    margin-left: 80px;
+}
+.form-control{
+    width: 107%
+}

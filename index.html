@@ -11,9 +11,14 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+
           <h1 class="display-4">Train Schedule</h1>
-          <p class="lead">You may check your train schedule here.</p>
+          <p class="lead">Schedule the next train here.</p>
+        </div>        
         </div>
+    </div>
       </div>
     <div class = "table">
         <div class="row">
@@ -21,7 +26,7 @@
         <table class="table table-striped">
             <thead>
               <tr>
-                <h4>Current Schedule</h4>
+                <h5>Current Schedule</h5>
                 <th scope="col">Train Name</th>
                 <th scope="col">Destination</th>
                 <th scope="col">Frequency</th>
@@ -34,34 +39,30 @@
           </table>
         </div>
     </div>  
-</div>
-    <div class="container">
+</div>                
+    <p>Add more trains to the schedule here.</p>             
+    <div class="container2">
             <div class="row">  
-              <div class="col">
-                <h4>Add more trains to the schedule here.</h4>             
-            <form>
-              <div class="form-group">
+              <div class="col-md-10">
+                <form>
+              <div class="form-group">                
                     <label for="exampleFormControlInput1">Train Name</label>
                     <input type="text" class="form-control" id="trainName-input" placeholder="Train Name">
                   </div>
                   <div class="form-group">
-                          <label for="exampleFormControlInput1">Destination</label>
+                          <label for="exampleFormControlInput2">Destination</label>
                           <input type="text" class="form-control" id="desination-input" placeholder="Desination">
                         </div>
                 <div class="form-group">
-                            <label for="exampleFormControlInput1">First Train Time (HH:mm military time)</label>
+                            <label for="exampleFormControlInput3">First Train Time (HH:mm military time)</label>
                             <input type="text" class="form-control" id="time-input" placeholder="First Train Time">
                 </div>
                 <div class="form-group">
-                        <label for="exampleFormControlInput1">Fequency (mins)</label>
+                        <label for="exampleFormControlInput4">Fequency (mins)</label>
                         <input type="text" class="form-control" id="frequency-input" placeholder="Frequency">
                       </div>
                 </form>
-                <button type="button" class="btn btn-outline-secondary">Submit</button>
-              </div>
-
-
-
-
+                <button type="button" class="btn btn-dark">Submit</button>              
+            </div>
 </body>  
 </html>

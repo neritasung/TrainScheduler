@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Train Scheduler</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Train Schedule</h1>
+          <p class="lead">You may check your train schedule here.</p>
+        </div>
+      </div>
+    <div class = "table">
+        <div class="row">
+         <div class="col-md-10"> 
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <h4>Current Schedule</h4>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+            </thead>
+            <tbody id="schedule">
+            </tbody>
+          </table>
+        </div>
+    </div>  
+</div>
+    <div class="container">
+            <div class="row">  
+              <div class="col">
+                <h4>Add more trains to the schedule here.</h4>             
+            <form>
+              <div class="form-group">
+                    <label for="exampleFormControlInput1">Train Name</label>
+                    <input type="text" class="form-control" id="trainName-input" placeholder="Train Name">
+                  </div>
+                  <div class="form-group">
+                          <label for="exampleFormControlInput1">Destination</label>
+                          <input type="text" class="form-control" id="desination-input" placeholder="Desination">
+                        </div>
+                <div class="form-group">
+                            <label for="exampleFormControlInput1">First Train Time (HH:mm military time)</label>
+                            <input type="text" class="form-control" id="time-input" placeholder="First Train Time">
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlInput1">Fequency (mins)</label>
+                        <input type="text" class="form-control" id="frequency-input" placeholder="Frequency">
+                      </div>
+                </form>
+                <button type="button" class="btn btn-outline-secondary">Submit</button>
+              </div>
+
+
+
+
+</body>  
+</html>

@@ -10,7 +10,7 @@
 }
 h5{
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-bottom: 20px;
 }
 p{
@@ -27,4 +27,7 @@ p{
 }
 .form-control{
     width: 107%
+}
+#submit{
+    margin-bottom: 40px;
 }

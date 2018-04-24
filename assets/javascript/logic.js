@@ -19,7 +19,8 @@ var trainTime = 0;
 var frequency = 0;
 
 // on click function for the submit button (with event default)
-$(body).on("click","#submit",function(){
+$("#submit").on("click",function(){
+  console.log(abc);
     event.preventDefault();
  
 
@@ -36,6 +37,7 @@ var newTrain = {
     trainTime: trainTime,
     frequency: frequency
   };
+
 // use .on (push) the data to the table above
 database.ref().push(newTrain);
 
@@ -56,7 +58,7 @@ $("#frequency-input").val("");
 
 });
 
-// use firebase to sore data to the site using child_added and add each entry to the table
+// use firebase to store data to the site using child_added and add each entry to the table
 
 
 
